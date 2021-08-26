@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  width: 60%;
+  height: 600px;
+  margin: auto;
+  margin-top: 50px;
+  border: 0.2px rgb(68, 68, 68) solid;
+  padding-top: 30px;
+}
+
+.left {
+  width: 70%;
+  height: 100%;
+  float: left;
+  margin-left: 20px;
+}
+
+.right {
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin-left: -20px;
+  background-color: black;
+}
+
+.msg {
+  margin-left: 20px;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+input {
+  width: 85%;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 0.5px solid teal;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  outline: none;
+  font-size: 14px;
+}
+
+textarea {
+  width: 85%;
+  height: 200px;
+  border: none;
+  margin-left: 20px;
+  box-sizing: border-box;
+  border-bottom: 0.5px solid teal;
+  margin-bottom: 15px;
+  background-color: transparent;
+  outline: none;
+  font-size: 16px;
+  color: white;
+  margin-top: 15px;
+}
+
+button {
+  width: 70%;
+  height: 50px;
+  margin: 35px 0 15px 73px;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: teal;
+  border: 1px teal solid;
+}
+
+.contact {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  color: white;
+}
+
+.find {
+  margin-bottom: 15px;
+  margin-left: 15px;
+  color: teal;
+}
+
+.info {
+  margin-left: 15px;
+  color: gray;
+  line-height: 28px;
+}
+
+.images {
+  display: inline;
+  margin-left: 15px;
+}
+
+img {
+  cursor: pointer;
+  width: 20px;
+  margin-right: 10px;
+}
